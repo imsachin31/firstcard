@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        background-color: beige;
+        height: 650px;
+        border: 2px solid black;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        height: 100px;
+    }
+    .box{
+        background-color: aquamarine;
+        width: 330px;
+        height: 330px;
+        border: 1px solid brown;
+        margin: 5px; padding: 5px;
+        /* box-shadow: 20px(x-axis) 15px<(y-axis) 10px(blur radius) 0px(spread radius) #37c363ec; */
+        /* box-shadow: 20px 15px 10px 0px #37c363ec; */
+        /* box-shadow: 10px 15px 5px rgb(81, 113, 113); */
+        /* box-shadow: 10px 15px 20px 10px yellow; */
+        /* box-shadow: inset 10px 15px 20px 10px orange; */
+        box-shadow: 2px 3px 10px 0px yellow, 8px 6px 15px 0px orange;
+    }
+    #head1{
+        text-shadow: 5px 0.5px 0px orange;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="logo.png" alt="logo image"/>
+            <h1 id="head1">Welcome to the Old Book Store</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa rem, ut porro nulla laboriosam incidunt odit cupiditate explicabo, ea aliquam cum maiores deleniti. Quo!</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>
